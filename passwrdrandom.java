@@ -28,9 +28,11 @@ public class passwrd {
 	    	sc.close();
 }
 }
+/*
+Complexity======>O(n^2*l^2)
 
-/*Write a program that enters two integers n and l and generates, in alphabetical order, all possible "stupid” passwords" that consist of the following 5 characters:
 
+Write a program that enters two integers n and l and generates, in alphabetical order, all possible "stupid” passwords" that consist of the following 5 characters:
 Character 1: a digit from 1 to n.
 Character 2: a digit from 1 to n.
 Character 3: a small letter from the first l letters of the Latin alphabet.
@@ -38,7 +40,8 @@ Character 4: a small letter from the first l letters of the Latin alphabet.
 Character 5: a digit from 1 to n, greater than the first 2 digits.
 Input Data
 The input is read from the console and consists of two integers: n and l within the range [1 … 9], each on a single line.
-
 Output Data
 Print on the console all "stupid" passwords in alphabetical order, separated by space
+
+
 */
